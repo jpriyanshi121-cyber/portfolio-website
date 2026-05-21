@@ -630,7 +630,7 @@ function Hero() {
             LinkedIn
           </a>
           <a
-            href="#"
+            href="/PriyanshiJainResume.pdf"
             className="inline-flex items-center gap-2.5 px-8 py-4 rounded-full font-bold text-sm transition-all duration-300 hover:scale-105"
             style={{
               background: "rgba(255, 255, 255, 0.05)",
