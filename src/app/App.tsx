@@ -75,15 +75,6 @@ const HACKATHONS = [
     tags: ["Accessibility", "App Design", "Social Impact"],
   },
   {
-    title: "Societas",
-    event: "Innovertex 3.0",
-    position: "Finalist",
-    badge: "bronze" as const,
-    description:
-      "Built a community-focused app concept for social engagement. Contributed to app flow planning and problem-solving.",
-    tags: ["Community", "Social App", "UX Flow"],
-  },
-  {
     title: "XpenseTrack",
     event: "Devcation Delhi 2026",
     position: "Pre-finalist",
@@ -91,6 +82,14 @@ const HACKATHONS = [
     description:
       "Developed a functional prototype of a student expense tracking application. Worked on frontend development and app workflow.",
     tags: ["Frontend", "Prototype", "FinTech"],
+  },
+  {
+    title: "XpenseOps",
+    event: "Android Expense Management App",
+    badge: "mention" as const,
+    description:
+      "Built an Android expense management app for organizational budgeting, tracking, and workflow management.",
+    tags: ["Android", "Expense Tracking", "Budgeting"],
   },
 ];
 
