@@ -55,6 +55,13 @@ const HACKATHONS = [
     description:
       "Developed an eco-friendly app concept for upcycled products. Collaborated on UI planning and ideation.",
     tags: ["App Concept", "UI Planning", "Ideation"],
+    links: [
+      { 
+        label: "Figma Prototype", 
+        url: "https://www.figma.com/proto/Q71sHdZutfsftAmSKRmfpI/EcoVibe?node-id=335-506&starting-point-node-id=335%3A506&t=iCk184p8s5khNWAk-1&scaling=scale-down&content-scaling=fixed", 
+        type: "figma" 
+      },
+    ],
   },
   {
     title: "XpenseTrack",
@@ -64,6 +71,13 @@ const HACKATHONS = [
     description:
       "Designed UI/UX for a student expense tracking application focused on creating a simple budgeting experience.",
     tags: ["UI/UX", "FinTech", "Student App"],
+    links: [
+      { 
+        label: "Figma Prototype", 
+        url: "https://www.figma.com/proto/tD44GXuZd0Svmcwk4ufzHX/XpenseTrack?node-id=373-853&starting-point-node-id=373%3A853&scaling=scale-down&content-scaling=fixed&t=zLrGiGsqv9wfzKtI-1", 
+        type: "figma" 
+      },
+    ],
   },
   {
     title: "SilverEase",
@@ -73,6 +87,13 @@ const HACKATHONS = [
     description:
       "Developed an accessibility-focused app idea for senior citizens. Collaborated on feature ideation and solution planning.",
     tags: ["Accessibility", "App Design", "Social Impact"],
+    links: [
+      { 
+        label: "Figma Prototype", 
+        url: "https://www.figma.com/proto/L9FFjvmCxGH1m9hTvyuvI2/SilverEase?node-id=1-1945&starting-point-node-id=1%3A1945&scaling=scale-down&content-scaling=fixed&t=RiMZ6BHB6ivd23Vf-1", 
+        type: "figma" 
+      },
+    ],
   },
   {
     title: "XpenseTrack",
@@ -82,6 +103,13 @@ const HACKATHONS = [
     description:
       "Developed a functional prototype of a student expense tracking application. Worked on frontend development and app workflow.",
     tags: ["Frontend", "Prototype", "FinTech"],
+    links: [
+      { 
+        label: "GitHub Repo", 
+        url: "https://github.com/shriyamohann14/XpenseTrack", 
+        type: "github" 
+      },
+    ],
   },
   {
     title: "XpenseOps",
@@ -90,6 +118,13 @@ const HACKATHONS = [
     description:
       "Built an Android expense management app for organizational budgeting, tracking, and workflow management.",
     tags: ["Android", "Expense Tracking", "Budgeting"],
+    links: [
+      { 
+        label: "GitHub Repo", 
+        url: "https://github.com/shriyamohann14/XpenseOps", 
+        type: "github" 
+      },
+    ],
   },
 ];
 
