@@ -1068,6 +1068,29 @@ function Hackathons() {
                         </span>
                       ))}
                     </div>
+                    {h.links && h.links.length > 0 && (
+                      <div className="flex flex-wrap gap-2 mt-4">
+                        {h.links.map((link) => (
+                          <a
+                            key={link.label}
+                            href={link.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-xs font-semibold transition-all duration-300 hover:scale-105"
+                            style={{
+                              background: "rgba(139, 92, 246, 0.2)",
+                              border: "1px solid rgba(139, 92, 246, 0.4)",
+                              color: "#A78BFA",
+                            }}
+                          >
+                            {link.type === "figma" && <Sparkles size={12} />}
+                            {link.type === "github" && <Github size={12} />}
+                            {link.label}
+                            <ExternalLink size={12} />
+                          </a>
+                        ))}
+                      </div>
+                    )}
                   </div>
                 </GlassCard>
               </motion.div>
